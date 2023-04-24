@@ -88,10 +88,64 @@
 }
 .cards{
     display: flex;
-    gap: 20px;
+    gap: 30px;
+    margin-top:60px;
 }
-.card{
+.colorOne{
+    background-color: #DB841D;
+    width: 370px;
+    height: 326px;
+    border-radius: 24px;
+}
+.colorTwo{
+    background-color: #FC5252;
+    width: 370px;
+    height: 326px;
+    border-radius: 24px;
+}
+.colorThree{
     background-color: #381DDB;
     width: 370px;
     height: 326px;
+    border-radius: 24px;
+}
+.colorFour{
+    background-color: #C00096;
+    width: 370px;
+    height: 326px;
+    border-radius: 24px;
+}
+.colorFive{
+    background-color: #84C4FF;
+    width: 370px;
+    height: 326px;
+    border-radius: 24px;
+}
+.cardOne{
+    margin-top: 96px;
+    margin-left: 60px;
+}
+.heading{
+    margin-top: 32px;
+    font-size: 24px;
+    font-weight: 800;
+    color: black;
+}
+.duis{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;   
+    color: black;
+}
+.headingOne{
+    margin-top: 32px;
+    font-size: 24px;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+.duisOne{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px; 
+    color: white;
 }
