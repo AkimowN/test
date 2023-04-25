@@ -1,13 +1,19 @@
+
 .header{
-    margin-top: 33px;
-    margin-left: 104px;
-    display:flex;
-    justify-content:end;
-    margin-right: 128px;
-    gap: 40px;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    margin-top: 40px;
+    margin-left: 104px;
 }
-.header button{
+.headerbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 104px;
+    gap: 20px;
+}
+.headerbox button{
     border-radius: 6px;
     background-color:#624DE3 ;
     font-weight: 400;
@@ -16,4 +22,94 @@
     color: white;
     height: 48px;
     width: 112px;
+}
+.headerbox p{
+    font-weight: 400;
+    font-size: 16px;
+}
+.headerbox .word{
+    color: #624DE3;
+}
+.slide{
+    height: 1105px;
+    background-color: #100A30;
+    margin-top: 21px;
+}
+.slideOne{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.slideTwo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 26px;
+    line-height: 30px;
+}
+.slide .word {
+    color: white;
+    font-weight: 400;
+    font-size: 55px;
+    margin-top: 62px;
+}
+.slide p {
+    color: #FFFFFFB2;
+    margin-top: 26px;
+}
+.slide .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons{
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+
+}
+.buttons .buttonOne{
+    color: white;
+    background-color: #624DE3;
+    border-radius: 6px;
+    width: 210px;
+    height: 54px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.buttons .buttonTwo{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid #C3C1CB;
+    border-radius: 8px;
+    background-color: #100A30;
+    height: 54px;
+    width: 168px;
+}
+.slideThree{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 214px;
+    font-size: 48px;
+    font-weight: 700;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 60px;
+}
+.slideFour{
+    font-size: 48px;
+    font-weight: 700;
+    margin-left: 440px;
+    margin-top: 233px;
+    display: flex;
+    align-items: center;
+}
+.slideFour .img{
+    margin-left: 261px;
 }
