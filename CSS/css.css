@@ -1,151 +1,19 @@
 .header{
-    margin-right: 375px;
-    pad: 32px;
-    display: flex;
-    justify-content: end;
-}
-.home{
-    margin-right: 50px;
-    font-weight: 600;
-    font-size: 14px;
-    color: white;
-    margin-top: 55px;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 20px;
-}
-.img{
-    background-image: url(/Img/Img.svg);
-    width: 100%;
-    height: 964px;
-}
-.tickets{
-    background: #FFFFFF;
-    border-radius: 8px;
-    padding: 18px 34px;
-    gap: 12px;
-    font-size: 16px;
-    font-weight: 700;
-    color: #381DDB;
-    margin-top: 32px;
-    border: none;
-}
-.text{
-    font-weight: 700;
-    color: white;
-    font-size: 72px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-top: 137px;
-}
-.music{
-    color: #FFA3A3;
-}
-.fish{
-    color: white;
-    font-weight: 400;
-    font-size: 24px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-top: 40px;
-}
-.logo{
-    margin-right: 371px;
-    margin-top: 45px;
-}
-.but{
-    font-size: 16px;
-    font-weight: 700;
-    padding: 18px 34px;
-    background: #FC5252;
-    color: white;
-    border-radius: 8px;
-    border: none;
-    margin-right: 44px;
-}
-.icon{
-    display: flex;
-    justify-content: center;
+    margin-top: 33px;
+    margin-left: 104px;
+    display:flex;
+    justify-content:end;
+    margin-right: 128px;
+    gap: 40px;
     align-items: center;
-    margin-top: 40px;
 }
-.textOne{
-    font-weight: 800;
-    font-size: 20px;
-    color: white;
-    margin-left: 24px;
-}
-.explore{
-    margin-top: 240px;
-    margin-left: 375px;
-    font-weight: 700;
-    font-size: 34px;
-}
-.explorespan{
-    color: #381DDB
-}
-.cards{
-    display: flex;
-    gap: 30px;
-    margin-top:60px;
-}
-.colorOne{
-    background-color: #DB841D;
-    width: 370px;
-    height: 326px;
-    border-radius: 24px;
-}
-.colorTwo{
-    background-color: #FC5252;
-    width: 370px;
-    height: 326px;
-    border-radius: 24px;
-}
-.colorThree{
-    background-color: #381DDB;
-    width: 370px;
-    height: 326px;
-    border-radius: 24px;
-}
-.colorFour{
-    background-color: #C00096;
-    width: 370px;
-    height: 326px;
-    border-radius: 24px;
-}
-.colorFive{
-    background-color: #84C4FF;
-    width: 370px;
-    height: 326px;
-    border-radius: 24px;
-}
-.cardOne{
-    margin-top: 96px;
-    margin-left: 60px;
-}
-.heading{
-    margin-top: 32px;
-    font-size: 24px;
-    font-weight: 800;
-    color: black;
-}
-.duis{
-    margin-top: 20px;
+.header button{
+    border-radius: 6px;
+    background-color:#624DE3 ;
     font-weight: 400;
-    font-size: 16px;   
-    color: black;
-}
-.headingOne{
-    margin-top: 32px;
-    font-size: 24px;
-    font-weight: 800;
-    color: #FFFFFF;
-}
-.duisOne{
-    margin-top: 20px;
-    font-weight: 400;
-    font-size: 16px; 
+    font-size: 14px;
+    text-align: center;
     color: white;
+    height: 48px;
+    width: 112px;
 }
